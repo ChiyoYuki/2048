@@ -48,6 +48,8 @@ int main()
 		}
 	}
 	Print();
+	printf("Please press any key to exit");
+	_getch();
 	return 0;
 }
 
