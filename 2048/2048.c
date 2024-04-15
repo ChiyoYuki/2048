@@ -1,3 +1,7 @@
+/*
+author:ChiyoYuki
+*/
+
 #define _CRT_SECURE_NO_WARNINGS
 
 #include<stdio.h>
@@ -84,7 +88,6 @@ int MoveIt()
 	printf("\nA/4=Left");
 	printf("\nD/6=Right");
 	printf("\nS/2=Down");
-	printf("\nPlease input the direction:");
 	while (dir != '2' && dir != '4' && dir != '6' && dir != '8' && dir != 'w' && dir != 'a' && dir != 's' && dir != 'd' && dir != 'W' && dir != 'A' && dir != 'S' && dir != 'D')
 	{
 		dir = _getch();
